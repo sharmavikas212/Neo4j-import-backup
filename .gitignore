@@ -1,0 +1,8 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore all dump files
+*.dump
+*.dmp
+*.bak
+*.backup

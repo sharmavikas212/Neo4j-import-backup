@@ -1,0 +1,59 @@
+V1 : 
+.\neo4j-admin database import full sample --overwrite-destination --id-type=integer --nodes import/accounts_header.csv,import/accounts.csv
+
+V2:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/accounts_header.csv,import/accounts.csv  --nodes import/date_nodes_header.csv,import/date_nodes.csv
+
+V3:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/accounts_header.csv,import/accounts.csv  --nodes import/dates_header.csv,import/dates.csv --relationships import/acc_first_acq_on_date_header.csv,import/acc_first_acq_on_date.csv
+
+V4:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/accounts_header.csv,import/accounts.csv  --nodes import/dates_header.csv,import/dates.csv --relationships import/acc_first_acq_on_date_header.csv,import/acc_first_acq_on_date.csv --relationships import/acc_created_on_date_header.csv,import/acc_created_on_date.csv
+
+V5:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --relationships import/Account-FIRST_AQUIRED_ON-Date_header.csv,import/Account-FIRST_AQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv
+
+V6:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --relationships import/Account-FIRST_AQUIRED_ON-Date_header.csv,import/Account-FIRST_AQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv
+
+V7:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv --relationships import/Service-SUBSCRIBED_ON-Date_header.csv,import/Service-SUBSCRIBED_ON-Date.csv --relationships import/Service-UNSUBSCRIBED_ON-Date_header.csv,import/Service-UNSUBSCRIBED_ON-Date.csv
+
+V8:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv
+
+V9:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service_header.csv,import/Account-SUBSCRIBED_TO-Service.csv
+
+V10:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --nodes import/View_header.csv,import/View.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service_header.csv,import/Account-SUBSCRIBED_TO-Service.csv
+
+V11:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --nodes import/View_header.csv,import/View.csv --nodes import/Content_header.csv,import/Content.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service_header.csv,import/Account-SUBSCRIBED_TO-Service.csv
+
+V12:
+.\neo4j-admin database import full sample --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --nodes import/View_header.csv,import/View.csv --nodes import/Content_header.csv,import/Content.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service_header.csv,import/Account-SUBSCRIBED_TO-Service.csv --relationships import/Account-PREFORMED-View_header.csv,import/Account-PREFORMED-View.csv --relationships import/View-OF_CONTENT-Content_header.csv,import/View-OF_CONTENT-Content.csv --relationships import/View-VIEWED_ON-Date_header.csv,import/View-VIEWED_ON-Date.csv --relationships import/Content-OF_YEAR-Date_header.csv,import/Content-OF_YEAR-Date.csv
+
+V13:
+.\neo4j-admin database import full cs82 --overwrite-destination --nodes import/Accounts_header.csv,import/Accounts.csv  --nodes import/Dates_header.csv,import/Dates.csv --nodes import/Services_header.csv,import/Services.csv --nodes import/View_header.csv,import/View.csv --nodes import/Content_header.csv,import/Content.csv --nodes import/Genre_header.csv,import/Genre.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date_header.csv,import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date_header.csv,import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date_header.csv,import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date_header.csv,import/Service-ACQUIRED_ON-Date.csv --relationships import/Service-SUBSCRIBED_ON-Date_header.csv,import/Service-SUBSCRIBED_ON-Date.csv --relationships import/Service-UNSUBSCRIBED_ON-Date_header.csv,import/Service-UNSUBSCRIBED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service_header.csv,import/Account-SUBSCRIBED_TO-Service.csv --relationships import/Account-PREFORMED-View_header.csv,import/Account-PREFORMED-View.csv --relationships import/View-OF_CONTENT-Content_header.csv,import/View-OF_CONTENT-Content.csv --relationships import/View-VIEWED_ON-Date_header.csv,import/View-VIEWED_ON-Date.csv --relationships import/Content-OF_YEAR-Date_header.csv,import/Content-OF_YEAR-Date.csv --relationships import/Content-OF_GENRE-Genre_header.csv,import/Content-OF_GENRE-Genre.csv
+
+V14:
+.\neo4j-admin database import full cs82 --overwrite-destination --nodes import/Accounts.csv  --nodes import/Dates.csv --nodes import/Services.csv --nodes import/View.csv --nodes import/Content.csv --nodes import/Genre.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date.csv --relationships import/Service-SUBSCRIBED_ON-Date.csv --relationships import/Service-UNSUBSCRIBED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service.csv --relationships import/Account-PREFORMED-View.csv --relationships import/View-OF_CONTENT-Content.csv --relationships import/View-VIEWED_ON-Date.csv --relationships import/Content-OF_YEAR-Date.csv --relationships import/Content-OF_GENRE-Genre.csv
+
+V14:
+--import instruction
+.\neo4j-admin database import full cs82 --overwrite-destination --nodes import/Accounts.csv  --nodes import/Dates.csv --nodes import/Services.csv --nodes import/View.csv --nodes import/Content.csv --nodes import/Genre.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date.csv --relationships import/Account-ACCOUNT_CHURNED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date.csv --relationships import/Service-SUBSCRIBED_ON-Date.csv --relationships import/Service-UNSUBSCRIBED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service.csv --relationships import/Account-PREFORMED-View.csv --relationships import/View-OF_CONTENT-Content.csv --relationships import/View-VIEWED_ON-Date.csv --relationships import/Content-OF_YEAR-Date.csv --relationships import/Content-OF_GENRE-Genre.csv
+
+--dump instruction 
+.\neo4j-admin database dump cs82
+
+--to use cs82 in neo4j desktop
+    -- first stop database neo4j
+    -- then switch to system database
+    -- then use CALL dbms.setDefaultDatabase('cs82')
+    -- then switch to cs82
+
+V15:
+$env:JAVA_HOME="C:\Program Files\Java\jdk-22"
+& "$env:JAVA_HOME\bin\java.exe" -version
+& .\neo4j-admin database import full cs82 --overwrite-destination --nodes import/Accounts.csv  --nodes import/Dates.csv --nodes import/Services.csv --nodes import/View.csv --nodes import/Content.csv --nodes import/Genre.csv --relationships import/Account-FIRST_ACQUIRED_ON-Date.csv --relationships import/Account-CREATED_ON-Date.csv --relationships import/Account-ACCOUNT_CHURNED_ON-Date.csv --relationships import/Service-CHURNED_ON-Date.csv --relationships import/Service-ACQUIRED_ON-Date.csv --relationships import/Service-SUBSCRIBED_ON-Date.csv --relationships import/Service-UNSUBSCRIBED_ON-Date.csv --relationships import/Account-SUBSCRIBED_TO-Service.csv --relationships import/Account-PERFORMED-View.csv --relationships import/View-OF_CONTENT-Content.csv --relationships import/View-VIEWED_ON-Date.csv --relationships import/Content-OF_YEAR-Date.csv --relationships import/Content-OF_GENRE-Genre.csv
